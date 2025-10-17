@@ -9,8 +9,6 @@ import Footer from './components/Footer';
 import WorkAreasPage from './pages/WorkAreasPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import TeamPage from './pages/TeamPage';
-import OfficesPage from './pages/OfficesPage';
 
 export default function App() {
   return (
@@ -30,8 +28,8 @@ export default function App() {
         />
         <Route path="/areas-atuacao" element={<WorkAreasPage />} />
         <Route path="/sobre" element={<AboutPage />} />
-        <Route path="/equipe" element={<TeamPage />} />
-        <Route path="/escritorios" element={<OfficesPage />} />
+        <Route path="/equipe" element={<AboutPage />} />
+        <Route path="/escritorios" element={<ContactPage />} />
         <Route path="/contato" element={<ContactPage />} />
       </Routes>
       <Footer />

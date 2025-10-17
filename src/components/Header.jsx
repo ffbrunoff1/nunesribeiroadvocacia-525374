@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Menu, X, Scale, Gavel, Users, Building, Phone } from 'lucide-react'
+import { Menu, X, Scale, Gavel, Users, Building, Phone, Play, Briefcase, Calculator, Shield, Map } from 'lucide-react'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)

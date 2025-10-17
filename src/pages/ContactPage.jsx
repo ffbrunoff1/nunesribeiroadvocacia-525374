@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import ReCAPTCHA from 'react-google-recaptcha'
-import { Phone, Mail, Map, Clock, Instagram, Calendar } from 'lucide-react'
+import { Phone, Mail, Map, Clock, Instagram, Calendar, Check } from 'lucide-react'
 
 export default function ContactPage() {
   const recaptchaRef = useRef(null)

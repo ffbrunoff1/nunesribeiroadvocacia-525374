@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Scale, Briefcase, Calculator, Shield, Heart, Wheat, Play } from 'lucide-react'
+import { Scale, Briefcase, Calculator, Shield, Heart, Wheat, Play, Check } from 'lucide-react'
 
 export default function Services() {
   const services = [
