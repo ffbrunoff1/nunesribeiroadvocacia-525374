@@ -436,7 +436,26 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-6">{office.city}</h3>
                 <div className="space-y-4 text-gray-600">
                   <div>
-                    <div className="font-medium text-gray-900 mb-1">Endereço:</div>
+                    <div className="font-medium text-gray-900 mb-1">Horário:</div>
+                    <div>{office.hours}</div>
+                  </div>
+                  <div>
+                    <div className="font-medium text-gray-900 mb-1">Telefone:</div>
+                    <a href={`tel:${office.phone.replace(/\D/g, '')}`} className="hover:text-primary-600">{office.phone}</a>
+                  </div>
+                  <div>
+                    <div className="font-medium text-gray-900 mb-1">Especialização:</div>
+                    <div>{office.specialty}</div>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+} mb-1">Endereço:</div>
                     <div>{office.address}</div>
                     <div className="text-sm text-gray-500">{office.cep}</div>
                   </div>
