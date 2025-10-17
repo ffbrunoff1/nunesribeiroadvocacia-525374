@@ -436,6 +436,11 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-6">{office.city}</h3>
                 <div className="space-y-4 text-gray-600">
                   <div>
+                    <div className="font-medium text-gray-900 mb-1">Endereço:</div>
+                    <div>{office.address}</div>
+                    <div className="text-sm text-gray-500">{office.cep}</div>
+                  </div>
+                  <div>
                     <div className="font-medium text-gray-900 mb-1">Horário:</div>
                     <div>{office.hours}</div>
                   </div>
@@ -455,9 +460,4 @@ export default function ContactPage() {
       </section>
     </div>
   );
-} mb-1">Endereço:</div>
-                    <div>{office.address}</div>
-                    <div className="text-sm text-gray-500">{office.cep}</div>
-                  </div>
-                  <div>
-                    <div className="font-medium text-gray-900
+}
